@@ -13,7 +13,7 @@ const SendMessage = user => {
 
   const obj = {
     screen_name,
-    text: GenerateMessage(name)
+    text: Hey(name)
   };
   // the follow stream track if I follow author person too.
   if (screen_name != my_user_name) {
